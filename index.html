@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Naama Rizel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <style>
+        .carousel-indicators{
+            color: white;
+        }
+        .carousel-item{
+            height: 46rem;
+            background: #777;
+            color: white;
+            position: relative;
+
+        }
+
+
+        .overlay-image{
+            position: absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            background-position: center;
+            background-size: cover;
+            opacity:0.2;
+        }
+        .overlay-image-2{
+            position: absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            background-position: center;
+            background-size: auto;
+            opacity:0.2;
+        }
+        .carousel-caption{
+            position:absolute;
+            top:350px;
+            bottom:0;
+            left:0;
+            right:0;
+        }
+
+    </style>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1" ></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2" ></li>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <div class="overlay-image" style="background-image:url(./slide1.jpg)"></div>
+                <div class="carousel-caption">
+                    <h1>Data Science Project</h1>
+                    <p>Predicting The Next War in Israel: A Model That Predicts The Next War Date According To Relevant Parameters</p>
+                    <a href="https://github.com/Project19RoyNaama/DS_Project/blob/90e0187b0f2d91f9d34169d3edb9b67c8e44db30/FinalProject.ipynb" target="_blank" class="btn btn-lg btn-light">
+                        Full Code
+                    </a>
+                    <a href="https://youtu.be/bpcQlIicH2k" target="_blank" class="btn btn-lg btn-light">
+                        Video Overview
+                    </a>
+                </div>
+
+            </div>
+            <div class="carousel-item ">
+                <div class="overlay-image-2" style="background-image:url(./slide2.jpg)"></div>
+                <div class="carousel-caption">
+                    <h1>OOP Project</h1>
+                    <p>Creating The Game "Cars" Using OOP and Forms</p>
+                    <a href="./CarsProjectRoyNaama.exe" target="_blank" class="btn btn-lg btn-light">
+                        Download & Play
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item active ">
+                <div class="overlay-image" style="background-image:url(./slide3.jpg)"></div>
+                <div class="carousel-caption">
+                    <h1>Naama Rizel</h1>
+                    <p></p>
+                    <p class="d-inline-flex gap-1">
+                        <a class="btn btn-lg btn-light" data-bs-toggle="collapse" href="#aboutme" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            About Me
+                        </a>
+                        <button class="btn btn-lg btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#contactinfo" aria-expanded="false" aria-controls="collapseExample">
+                            Contact Info
+                        </button>
+                    </p>
+                    <div class="collapse" id="aboutme">
+                        <div class="card text-bg-light mb-3">
+                            <p>3rd year CS student in HIT</p>
+                            <p>looking for a great place to start investing myself in</p>
+                        </div>
+                    </div>
+                    <div class="collapse" id="contactinfo">
+                        <div class="card text-bg-light">
+                            <p>naama.yaler@gmail.com</p>
+                            <p><a href="www.linkedin.com/in/naama-rizel-a6a1b8273" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">My LinkedIn Profile</a></p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+    </div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
